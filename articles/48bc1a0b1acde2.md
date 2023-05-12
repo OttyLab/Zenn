@@ -51,7 +51,7 @@ class _MapPageState extends State<MapPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: MapWidget(
-        resourceOptions: ResourceOptions(accessToken:"pk.eyJ1IjoieW9jaGkiLCJhIjoiY2xmczlxNzB0MDQ1cDNwb2I2aW03MTJ3aSJ9.uG_I8gTs85c1eP3eJj9MUA" ),
+        resourceOptions: ResourceOptions(accessToken: YOUR_MAPBOX_PUBLIC_ACCESS_TOKEN),
         cameraOptions: CameraOptions(
           center: Point(coordinates: Position(139.7586677640881, 35.67369269880291)).toJson(),
           zoom: 14,
@@ -78,7 +78,7 @@ class _MapPageState extends State<MapPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: MapWidget(
-        resourceOptions: ResourceOptions(accessToken:"pk.eyJ1IjoieW9jaGkiLCJhIjoiY2xmczlxNzB0MDQ1cDNwb2I2aW03MTJ3aSJ9.uG_I8gTs85c1eP3eJj9MUA" ),
+        resourceOptions: ResourceOptions(accessToken: YOUR_MAPBOX_PUBLIC_ACCESS_TOKEN),
         cameraOptions: CameraOptions(
           center: Point(coordinates: Position(139.7586677640881, 35.67369269880291)).toJson(),
           zoom: 16,
