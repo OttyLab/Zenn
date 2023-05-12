@@ -3,7 +3,7 @@ title: "Mapbox Maps SDK Flutter Pluginでスタイル・レイヤーを操作す
 emoji: "😸"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Mapbox", "Flutter", "GIS"]
-published: false
+published: true
 publication_name: "mapbox_japan"
 ---
 
