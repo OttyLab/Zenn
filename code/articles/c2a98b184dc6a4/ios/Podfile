@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Party Parrot' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'MapboxMaps', '10.13.1'
+
+  # Pods for Party Parrot
+
+  target 'Party ParrotTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Party ParrotUITests' do
+    # Pods for testing
+  end
+
+end

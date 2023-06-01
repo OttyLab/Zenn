@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97AF5EC364884755115A88D1 /* Pods_Party_Parrot_Party_ParrotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDC6109D1CC02DEFC13208C /* Pods_Party_Parrot_Party_ParrotUITests.framework */; };
+		B588B672E638D8728B1E09A6 /* Pods_Party_Parrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5143A845A117871493456D /* Pods_Party_Parrot.framework */; };
+		D234244C2A282F1A00FE3808 /* party.json in Resources */ = {isa = PBXBuildFile; fileRef = D234244B2A282AE200FE3808 /* party.json */; };
+		D23424502A2836AD00FE3808 /* party1000.json in Resources */ = {isa = PBXBuildFile; fileRef = D234244F2A2836AD00FE3808 /* party1000.json */; };
+		D24FAA722A2822F2006C4AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FAA712A2822F2006C4AE1 /* AppDelegate.swift */; };
+		D24FAA742A2822F2006C4AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FAA732A2822F2006C4AE1 /* SceneDelegate.swift */; };
+		D24FAA762A2822F2006C4AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FAA752A2822F2006C4AE1 /* ViewController.swift */; };
+		D24FAA792A2822F2006C4AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24FAA772A2822F2006C4AE1 /* Main.storyboard */; };
+		D24FAA7B2A2822F8006C4AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24FAA7A2A2822F8006C4AE1 /* Assets.xcassets */; };
+		D24FAA7E2A2822F8006C4AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24FAA7C2A2822F8006C4AE1 /* LaunchScreen.storyboard */; };
+		D24FAA892A2822FA006C4AE1 /* Party_ParrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FAA882A2822FA006C4AE1 /* Party_ParrotTests.swift */; };
+		D24FAA932A2822FA006C4AE1 /* Party_ParrotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FAA922A2822FA006C4AE1 /* Party_ParrotUITests.swift */; };
+		D24FAA952A2822FA006C4AE1 /* Party_ParrotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24FAA942A2822FA006C4AE1 /* Party_ParrotUITestsLaunchTests.swift */; };
+		D783702F4548D73C4EB831DB /* Pods_Party_ParrotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3E3FA2203A86B45ECFF2FD /* Pods_Party_ParrotTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24FAA852A2822FA006C4AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24FAA662A2822F1006C4AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24FAA6D2A2822F2006C4AE1;
+			remoteInfo = "Party Parrot";
+		};
+		D24FAA8F2A2822FA006C4AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24FAA662A2822F1006C4AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24FAA6D2A2822F2006C4AE1;
+			remoteInfo = "Party Parrot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BDC6109D1CC02DEFC13208C /* Pods_Party_Parrot_Party_ParrotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Party_Parrot_Party_ParrotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D0373D273A621923F2352C /* Pods-Party ParrotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party ParrotTests.debug.xcconfig"; path = "Target Support Files/Pods-Party ParrotTests/Pods-Party ParrotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C5143A845A117871493456D /* Pods_Party_Parrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Party_Parrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ADFBF1B8197AD38031AD19 /* Pods-Party Parrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party Parrot.debug.xcconfig"; path = "Target Support Files/Pods-Party Parrot/Pods-Party Parrot.debug.xcconfig"; sourceTree = "<group>"; };
+		572BE806F81E5F02997508FA /* Pods-Party Parrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party Parrot.release.xcconfig"; path = "Target Support Files/Pods-Party Parrot/Pods-Party Parrot.release.xcconfig"; sourceTree = "<group>"; };
+		5E945FDE450713521635CFA1 /* Pods-Party ParrotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party ParrotTests.release.xcconfig"; path = "Target Support Files/Pods-Party ParrotTests/Pods-Party ParrotTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E3E3FA2203A86B45ECFF2FD /* Pods_Party_ParrotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Party_ParrotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E5F2B65A2BF979317B1B00 /* Pods-Party Parrot-Party ParrotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party Parrot-Party ParrotUITests.release.xcconfig"; path = "Target Support Files/Pods-Party Parrot-Party ParrotUITests/Pods-Party Parrot-Party ParrotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A16278D388EEB72F37CB69AC /* Pods-Party Parrot-Party ParrotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Party Parrot-Party ParrotUITests.debug.xcconfig"; path = "Target Support Files/Pods-Party Parrot-Party ParrotUITests/Pods-Party Parrot-Party ParrotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D234244B2A282AE200FE3808 /* party.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = party.json; sourceTree = "<group>"; };
+		D234244F2A2836AD00FE3808 /* party1000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = party1000.json; sourceTree = "<group>"; };
+		D24FAA6E2A2822F2006C4AE1 /* Party Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Parrot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24FAA712A2822F2006C4AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24FAA732A2822F2006C4AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D24FAA752A2822F2006C4AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D24FAA782A2822F2006C4AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24FAA7A2A2822F8006C4AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D24FAA7D2A2822F8006C4AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D24FAA7F2A2822F8006C4AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24FAA842A2822FA006C4AE1 /* Party ParrotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Party ParrotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24FAA882A2822FA006C4AE1 /* Party_ParrotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party_ParrotTests.swift; sourceTree = "<group>"; };
+		D24FAA8E2A2822FA006C4AE1 /* Party ParrotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Party ParrotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24FAA922A2822FA006C4AE1 /* Party_ParrotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party_ParrotUITests.swift; sourceTree = "<group>"; };
+		D24FAA942A2822FA006C4AE1 /* Party_ParrotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party_ParrotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24FAA6B2A2822F2006C4AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B588B672E638D8728B1E09A6 /* Pods_Party_Parrot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24FAA812A2822FA006C4AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D783702F4548D73C4EB831DB /* Pods_Party_ParrotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24FAA8B2A2822FA006C4AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AF5EC364884755115A88D1 /* Pods_Party_Parrot_Party_ParrotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA5A3D201F5A09F24463018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5143A845A117871493456D /* Pods_Party_Parrot.framework */,
+				1BDC6109D1CC02DEFC13208C /* Pods_Party_Parrot_Party_ParrotUITests.framework */,
+				8E3E3FA2203A86B45ECFF2FD /* Pods_Party_ParrotTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1353FFDA134DE94910735C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52ADFBF1B8197AD38031AD19 /* Pods-Party Parrot.debug.xcconfig */,
+				572BE806F81E5F02997508FA /* Pods-Party Parrot.release.xcconfig */,
+				A16278D388EEB72F37CB69AC /* Pods-Party Parrot-Party ParrotUITests.debug.xcconfig */,
+				90E5F2B65A2BF979317B1B00 /* Pods-Party Parrot-Party ParrotUITests.release.xcconfig */,
+				27D0373D273A621923F2352C /* Pods-Party ParrotTests.debug.xcconfig */,
+				5E945FDE450713521635CFA1 /* Pods-Party ParrotTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D234244A2A282ABB00FE3808 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				D234244B2A282AE200FE3808 /* party.json */,
+				D234244F2A2836AD00FE3808 /* party1000.json */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		D24FAA652A2822F1006C4AE1 = {
+			isa = PBXGroup;
+			children = (
+				D24FAA702A2822F2006C4AE1 /* Party Parrot */,
+				D24FAA872A2822FA006C4AE1 /* Party ParrotTests */,
+				D24FAA912A2822FA006C4AE1 /* Party ParrotUITests */,
+				D24FAA6F2A2822F2006C4AE1 /* Products */,
+				A1353FFDA134DE94910735C6 /* Pods */,
+				2BA5A3D201F5A09F24463018 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D24FAA6F2A2822F2006C4AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24FAA6E2A2822F2006C4AE1 /* Party Parrot.app */,
+				D24FAA842A2822FA006C4AE1 /* Party ParrotTests.xctest */,
+				D24FAA8E2A2822FA006C4AE1 /* Party ParrotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24FAA702A2822F2006C4AE1 /* Party Parrot */ = {
+			isa = PBXGroup;
+			children = (
+				D234244A2A282ABB00FE3808 /* assets */,
+				D24FAA712A2822F2006C4AE1 /* AppDelegate.swift */,
+				D24FAA732A2822F2006C4AE1 /* SceneDelegate.swift */,
+				D24FAA752A2822F2006C4AE1 /* ViewController.swift */,
+				D24FAA772A2822F2006C4AE1 /* Main.storyboard */,
+				D24FAA7A2A2822F8006C4AE1 /* Assets.xcassets */,
+				D24FAA7C2A2822F8006C4AE1 /* LaunchScreen.storyboard */,
+				D24FAA7F2A2822F8006C4AE1 /* Info.plist */,
+			);
+			path = "Party Parrot";
+			sourceTree = "<group>";
+		};
+		D24FAA872A2822FA006C4AE1 /* Party ParrotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24FAA882A2822FA006C4AE1 /* Party_ParrotTests.swift */,
+			);
+			path = "Party ParrotTests";
+			sourceTree = "<group>";
+		};
+		D24FAA912A2822FA006C4AE1 /* Party ParrotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D24FAA922A2822FA006C4AE1 /* Party_ParrotUITests.swift */,
+				D24FAA942A2822FA006C4AE1 /* Party_ParrotUITestsLaunchTests.swift */,
+			);
+			path = "Party ParrotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24FAA6D2A2822F2006C4AE1 /* Party Parrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24FAA982A2822FA006C4AE1 /* Build configuration list for PBXNativeTarget "Party Parrot" */;
+			buildPhases = (
+				395C8350FA9E4B8B8FA2AD73 /* [CP] Check Pods Manifest.lock */,
+				D24FAA6A2A2822F2006C4AE1 /* Sources */,
+				D24FAA6B2A2822F2006C4AE1 /* Frameworks */,
+				D24FAA6C2A2822F2006C4AE1 /* Resources */,
+				16C166FEED11656C31F00414 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Party Parrot";
+			productName = "Party Parrot";
+			productReference = D24FAA6E2A2822F2006C4AE1 /* Party Parrot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24FAA832A2822FA006C4AE1 /* Party ParrotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24FAA9B2A2822FA006C4AE1 /* Build configuration list for PBXNativeTarget "Party ParrotTests" */;
+			buildPhases = (
+				57902D4F68B25B43F480F0AF /* [CP] Check Pods Manifest.lock */,
+				D24FAA802A2822FA006C4AE1 /* Sources */,
+				D24FAA812A2822FA006C4AE1 /* Frameworks */,
+				D24FAA822A2822FA006C4AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24FAA862A2822FA006C4AE1 /* PBXTargetDependency */,
+			);
+			name = "Party ParrotTests";
+			productName = "Party ParrotTests";
+			productReference = D24FAA842A2822FA006C4AE1 /* Party ParrotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D24FAA8D2A2822FA006C4AE1 /* Party ParrotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24FAA9E2A2822FA006C4AE1 /* Build configuration list for PBXNativeTarget "Party ParrotUITests" */;
+			buildPhases = (
+				A274F6B0F05A4D8C895D991F /* [CP] Check Pods Manifest.lock */,
+				D24FAA8A2A2822FA006C4AE1 /* Sources */,
+				D24FAA8B2A2822FA006C4AE1 /* Frameworks */,
+				D24FAA8C2A2822FA006C4AE1 /* Resources */,
+				85DB8CC52561C8367EE8F951 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24FAA902A2822FA006C4AE1 /* PBXTargetDependency */,
+			);
+			name = "Party ParrotUITests";
+			productName = "Party ParrotUITests";
+			productReference = D24FAA8E2A2822FA006C4AE1 /* Party ParrotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24FAA662A2822F1006C4AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D24FAA6D2A2822F2006C4AE1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D24FAA832A2822FA006C4AE1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D24FAA6D2A2822F2006C4AE1;
+					};
+					D24FAA8D2A2822FA006C4AE1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D24FAA6D2A2822F2006C4AE1;
+					};
+				};
+			};
+			buildConfigurationList = D24FAA692A2822F1006C4AE1 /* Build configuration list for PBXProject "Party Parrot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24FAA652A2822F1006C4AE1;
+			productRefGroup = D24FAA6F2A2822F2006C4AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24FAA6D2A2822F2006C4AE1 /* Party Parrot */,
+				D24FAA832A2822FA006C4AE1 /* Party ParrotTests */,
+				D24FAA8D2A2822FA006C4AE1 /* Party ParrotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24FAA6C2A2822F2006C4AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D234244C2A282F1A00FE3808 /* party.json in Resources */,
+				D24FAA7E2A2822F8006C4AE1 /* LaunchScreen.storyboard in Resources */,
+				D24FAA7B2A2822F8006C4AE1 /* Assets.xcassets in Resources */,
+				D23424502A2836AD00FE3808 /* party1000.json in Resources */,
+				D24FAA792A2822F2006C4AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24FAA822A2822FA006C4AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24FAA8C2A2822FA006C4AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16C166FEED11656C31F00414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Party Parrot/Pods-Party Parrot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Party Parrot/Pods-Party Parrot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Party Parrot/Pods-Party Parrot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		395C8350FA9E4B8B8FA2AD73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Party Parrot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57902D4F68B25B43F480F0AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Party ParrotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85DB8CC52561C8367EE8F951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Party Parrot-Party ParrotUITests/Pods-Party Parrot-Party ParrotUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Party Parrot-Party ParrotUITests/Pods-Party Parrot-Party ParrotUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Party Parrot-Party ParrotUITests/Pods-Party Parrot-Party ParrotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A274F6B0F05A4D8C895D991F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Party Parrot-Party ParrotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24FAA6A2A2822F2006C4AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24FAA762A2822F2006C4AE1 /* ViewController.swift in Sources */,
+				D24FAA722A2822F2006C4AE1 /* AppDelegate.swift in Sources */,
+				D24FAA742A2822F2006C4AE1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24FAA802A2822FA006C4AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24FAA892A2822FA006C4AE1 /* Party_ParrotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24FAA8A2A2822FA006C4AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24FAA932A2822FA006C4AE1 /* Party_ParrotUITests.swift in Sources */,
+				D24FAA952A2822FA006C4AE1 /* Party_ParrotUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24FAA862A2822FA006C4AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24FAA6D2A2822F2006C4AE1 /* Party Parrot */;
+			targetProxy = D24FAA852A2822FA006C4AE1 /* PBXContainerItemProxy */;
+		};
+		D24FAA902A2822FA006C4AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24FAA6D2A2822F2006C4AE1 /* Party Parrot */;
+			targetProxy = D24FAA8F2A2822FA006C4AE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24FAA772A2822F2006C4AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24FAA782A2822F2006C4AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24FAA7C2A2822F8006C4AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24FAA7D2A2822F8006C4AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24FAA962A2822FA006C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D24FAA972A2822FA006C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24FAA992A2822FA006C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52ADFBF1B8197AD38031AD19 /* Pods-Party Parrot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Party Parrot/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Party-Parrot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D24FAA9A2A2822FA006C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572BE806F81E5F02997508FA /* Pods-Party Parrot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Party Parrot/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Party-Parrot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D24FAA9C2A2822FA006C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D0373D273A621923F2352C /* Pods-Party ParrotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Party-ParrotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Party Parrot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Party Parrot";
+			};
+			name = Debug;
+		};
+		D24FAA9D2A2822FA006C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E945FDE450713521635CFA1 /* Pods-Party ParrotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Party-ParrotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Party Parrot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Party Parrot";
+			};
+			name = Release;
+		};
+		D24FAA9F2A2822FA006C4AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16278D388EEB72F37CB69AC /* Pods-Party Parrot-Party ParrotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Party-ParrotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Party Parrot";
+			};
+			name = Debug;
+		};
+		D24FAAA02A2822FA006C4AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E5F2B65A2BF979317B1B00 /* Pods-Party Parrot-Party ParrotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Party-ParrotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Party Parrot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24FAA692A2822F1006C4AE1 /* Build configuration list for PBXProject "Party Parrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24FAA962A2822FA006C4AE1 /* Debug */,
+				D24FAA972A2822FA006C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24FAA982A2822FA006C4AE1 /* Build configuration list for PBXNativeTarget "Party Parrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24FAA992A2822FA006C4AE1 /* Debug */,
+				D24FAA9A2A2822FA006C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24FAA9B2A2822FA006C4AE1 /* Build configuration list for PBXNativeTarget "Party ParrotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24FAA9C2A2822FA006C4AE1 /* Debug */,
+				D24FAA9D2A2822FA006C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24FAA9E2A2822FA006C4AE1 /* Build configuration list for PBXNativeTarget "Party ParrotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24FAA9F2A2822FA006C4AE1 /* Debug */,
+				D24FAAA02A2822FA006C4AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D24FAA662A2822F1006C4AE1 /* Project object */;
+}
