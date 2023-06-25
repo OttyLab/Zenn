@@ -13,7 +13,6 @@ import com.mapbox.maps.Style
 import com.mapbox.navigation.core.MapboxNavigation
 import com.mapbox.navigation.core.internal.extensions.flowRouteProgress
 import com.mapbox.navigation.core.lifecycle.MapboxNavigationObserver
-import com.mapbox.navigation.dropin.NavigationView
 import com.mapbox.navigation.ui.base.lifecycle.UIBinder
 import com.mapbox.navigation.ui.base.lifecycle.UIComponent
 import com.mapbox.navigation.ui.maps.route.line.model.MapboxRouteLineOptions
@@ -29,10 +28,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val navigationView: NavigationView = findViewById(R.id.navigationView)
-        navigationView.api.routeReplayEnabled(true)
+        binding.navigationView.api.routeReplayEnabled(true)
 
-        navigationView.customizeViewOptions {
+        binding.navigationView.customizeViewOptions {
             mapStyleUriDay = Style.SATELLITE_STREETS
             routeLineOptions = MapboxRouteLineOptions.Builder(applicationContext)
                 .withRouteLineResources(
@@ -49,11 +47,11 @@ class MainActivity : AppCompatActivity() {
                 .build()
         }
 
-        navigationView.customizeViewStyles {
-            startNavigationButtonStyle = R.style.MyStartNavigationButtonStyle
+        binding.navigationView.customizeViewStyles {
+            startNavigationButtonStyle = R.style.CustomStartNavigationButtonStyle
         }
 
-        navigationView.customizeViewBinders {
+        binding.navigationView.customizeViewBinders {
             infoPanelTripProgressBinder = CustomTripProgressViewBinder()
         }
     }
