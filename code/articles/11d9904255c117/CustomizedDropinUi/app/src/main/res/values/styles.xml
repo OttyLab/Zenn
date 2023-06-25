@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="MyStartNavigationButtonStyle">
+    <style name="CustomStartNavigationButtonStyle">
         <item name="extendableButtonIcon">@drawable/ramen</item>
     </style>
 
