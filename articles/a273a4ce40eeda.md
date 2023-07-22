@@ -11,7 +11,7 @@ publication_name: "mapbox_japan"
 
 [Mapbox Newsletter WEEKLY TIPSの解説 -「ヒートマップレイヤーの作成」](https://zenn.dev/mapbox_japan/articles/994ad131240411)ではサンプルを用いてヒートマップレイヤーの使い方を確認しました。この記事ではヒートマップが内部的にどのような処理をしているのかについて見ていきます。また、「手持ちのデータで試してみたけど全体的に`0`や`1`の色になってしまってうまくいかない」という場合にも参考にもなるかと思います。
 
-[こちらのブログ](https://blog.mapbox.com/introducing-heatmaps-in-mapbox-gl-js-71355ada9e6c)で詳細が解説されているので合わせてご参照ください。
+[こちらのブログ](https://www.mapbox.jp/blog/introducing-heatmaps-in-mapbox-gl-js)で詳細が解説されているので合わせてご参照ください。
 
 
 # カーネル密度推定
