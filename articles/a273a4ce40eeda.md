@@ -3,7 +3,7 @@ title: "ヒートマップレイヤーの勘所"
 emoji: "☁️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Mapbox", "MapboxGLJS", "GIS", "JavaScript", "Heatmap"]
-published: false
+published: true
 publication_name: "mapbox_japan"
 ---
 
