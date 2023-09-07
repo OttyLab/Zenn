@@ -3,7 +3,7 @@ title: "Mapbox Newsletter WEEKLY TIPSの解説 -「リアルタイムデータ�
 emoji: "🚀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Mapbox", "MapboxGLJS", "GIS", "JavaScript"]
-published: false
+published: true
 publication_name: "mapbox_japan"
 ---
 
