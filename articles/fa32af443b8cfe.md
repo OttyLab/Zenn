@@ -3,7 +3,7 @@ title: "Mapbox Newsletter WEEKLY TIPSの解説 -「ゲーム感覚でマップ�
 emoji: "🎮"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Mapbox", "MapboxGLJS", "GIS", "JavaScript"]
-published: false
+published: true
 publication_name: "mapbox_japan"
 ---
 
@@ -11,7 +11,7 @@ publication_name: "mapbox_japan"
 
 この記事は、先日配信されたMapbox NewsletterのWEEKLY TIPSで紹介されていた「ゲーム感覚でマップを操作」についての解説です。このサンプルはデフォルトとは異なるキーボード操作を実装する方法について例示しています。また、Newsletterの購読は[こちら](https://www.mapbox.jp/blog?#:~:text=%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AC%E3%82%BF%E3%83%BC%E3%82%92%E8%B3%BC%E8%AA%AD)からお申し込みいただけます。
 
-以下が本サンプルのデモです。
+以下が本サンプルのデモです。キーボードの矢印キーで操作します。上下矢印で前後の移動、左右矢印で地図の回転です。
 
 @[codepen](https://codepen.io/OttyLab/pen/rNRGeoM)
 
