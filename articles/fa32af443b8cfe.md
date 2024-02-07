@@ -122,3 +122,39 @@ function easing(t) {
 
 # まとめ
 デフォルトのキーボード・マウス入力を受け付けない状態にし、Canvasのイベントハンドラとして実装するとこで任意のキーボード操作が可能になりました。
+
+
+# 2024/02/07 追記
+
+英語サイトのデモが修正されました。
+@[card](https://docs.mapbox.com/mapbox-gl-js/example/game-controls/)
+
+この記事でご紹介した`map.getCanvas().setAttribute('tabindex', '0'); `を追加する方法ではなく、以下のように`interactive: true`（デフォルトなので省略）とした上で、すべての入力系のハンドラーを`false`にしています。
+
+```JavaScript
+const map = new mapboxgl.Map({
+  container: 'map',
+  // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+  style: 'mapbox://styles/mapbox/dark-v11',
+  center: [-87.6298, 41.8781],
+  zoom: 17,
+  bearing: -12,
+  pitch: 60,
+  boxZoom: false,
+  doubleClickZoom: false,
+  dragPan: false,
+  dragRotate: false,
+  keyboard: false,
+  scrollZoom: false,
+  touchPitch: false,
+  touchZoomRotate: false
+});
+```
+
+この方法のメリットは、Mapbox GL JSの内部の実装に関する知識が不要であるという点です。
+
+ただし、`interactive: true`の時、マウスカーソルが`grab`（手の形）になります。今回はマウス入力を無効化しているのでデフォルト（矢印）にしたいのですが、変更するAPIがありません。そこでデモでは以下のように強引に変更しています。これはMapbox GL JSの内部の実装に関する知識が必要となるため、マウスカーソルを変更するAPIの実装が待たれます。
+
+```JavaScript
+map.getCanvas().parentNode.classList.remove('mapboxgl-interactive');
+```
