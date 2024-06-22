@@ -3,7 +3,7 @@ title: "Mapbox Docs AI (AIチャットボット) を使ってみる"
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Mapbox", "GIS", "AIチャットボット", "サポート"]
-published: false
+published: true
 publication_name: "mapbox_japan"
 ---
 
